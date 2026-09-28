@@ -1,0 +1,3 @@
+data:
+  leakdb_root: "E:/AquaGuard/LeakDB"
+  nominal_inp: "E:/AquaGuard/LeakDB/Hanoi_CMH_nominal.inp"
