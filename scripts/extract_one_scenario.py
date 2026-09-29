@@ -10,7 +10,7 @@ zip_path = Path(config["data"]["leakdb_root"]) / "Hanoi_CMH_1000scenarios.zip"
 
 # Day 02 scenario set (see scenario-selection reasoning: 1 no-leak, 1 calibration-only,
 # 4 evaluation scenarios spanning leak-count / leak-type / duration)
-scenario_names = ["Scenario-186", "Scenario-769", "Scenario-18", "Scenario-31"]
+scenario_names = ["Scenario-289", "Scenario-489", "Scenario-694", "Scenario-844"]
 
 with zipfile.ZipFile(zip_path, "r") as zf:
     all_names = zf.namelist()
