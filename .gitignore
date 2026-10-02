@@ -3,9 +3,9 @@
 .env.*
 
 # Data
-data/
-datasets/
-LeakDB/
+/data/
+/datasets/
+/LeakDB/
 *.zip
 
 # Generated outputs
