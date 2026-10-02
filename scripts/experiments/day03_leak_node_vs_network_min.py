@@ -1,6 +1,6 @@
 import sys
 from pathlib import Path
-sys.path.append(str(Path(__file__).resolve().parents[1] / "src"))
+sys.path.append(str(Path(__file__).resolve().parents[2] / "src"))
 
 from aquaguard.data.loaders import load_scenario
 from aquaguard.features.residuals import compute_network_avg_residuals
